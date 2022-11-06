@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "circom public/circuit/main.circom --r1cs --wasm --sym --output ./build"
   },
   "author": "",
   "license": "ISC"
