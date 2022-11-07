@@ -3,7 +3,7 @@ contract Challenge {
 
     bool public solved;
 
-    function check(bytes calldata flag) public {
+    function check(secret calldata flag) public {
       
         require(true, "invalid flag");
 

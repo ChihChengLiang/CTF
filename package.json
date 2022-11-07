@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "circomlib": "^2.0.5"
+    "circom_tester": "^0.0.19",
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7"
   }
 }
